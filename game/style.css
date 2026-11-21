@@ -1,0 +1,8 @@
+html, body { margin: 0; height: 100%; background: #0b0e1a; }
+body { display: flex; align-items: center; justify-content: center; font-family: Verdana, Geneva, sans-serif; }
+#wrap { width: 960px; max-width: 98vw; }
+#game { display: block; width: 100%; height: auto; background: #141a2e; border: 3px solid #3a4668; border-radius: 8px; }
+#bar { display: flex; gap: 18px; justify-content: space-between; padding: 8px 4px 2px; color: #dfe6ff; font-size: 14px; font-weight: bold; letter-spacing: 0.5px; }
+#hud-alert { color: #7dff9a; }
+#help { margin: 4px 0 0; color: #8b96b8; font-size: 12px; text-align: center; }
+#status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
